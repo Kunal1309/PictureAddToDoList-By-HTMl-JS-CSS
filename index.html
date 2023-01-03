@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Images</title>
+</head>
+<body>
+    <div id="newtask">
+        <label for="input">Enter Url:-</label>
+        <input type="text" name= "input" placeholder="Add product img address here..">
+        <label for="select">Select Type:-</label>
+        <select name="select" class="select">
+            <option value="1">All</option>
+            <option value="2">Headphones</option>
+            <option value="3">Mobile</option>
+            <option value="4">Laptops</option>
+        </select>
+        <button id="push">Add</button>
+     </div>
+     <div class="filter">
+        <button>All</button>
+        <button>Headphones</button>
+        <button>Mobile</button>
+        <button>Laptops</button>
+     </div>
+     <div id="tasks"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
